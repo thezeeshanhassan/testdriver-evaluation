@@ -4,7 +4,9 @@ A small Next.js task manager built to evaluate [TestDriver.ai](https://testdrive
 
 ## Features
 
-- List, add, complete and delete tasks
+- List, add, edit, complete and delete tasks
+- Title validation (required, 3–80 chars, no duplicates) on both client and API
+- Loading, empty and error states; duplicate-submit protection
 - Filter by status (all / pending / completed)
 - Task stats (total, pending, completed)
 - In-memory API at `/api/tasks` (resets on server restart)
